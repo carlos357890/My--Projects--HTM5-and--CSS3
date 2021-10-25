@@ -1,0 +1,122 @@
+:root {
+    --vermelho: #e50914; 
+    --preto: #141414;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Elementos Base */
+
+body {
+    color: white;
+    background: var(--preto);
+    font-family: 'Times New Roman', Times, serif';
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: "Arial Black", Times;
+    font-size: 40px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 10px;
+    transition: 0.3s;
+}
+
+header nav a:hover {
+    color: #fff;
+}
+
+/* Filme Principal */
+
+.filme-principal {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url(../img/capa-house.jpg);
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.titulo {
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.botao {
+    background-color: rgba(0, 0, 0, .50);
+    border: none;
+    color: white;
+    box-shadow: 1px 1px 2px black;
+    border-radius: 3px;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.fas {
+    margin-right: 8px;
+}
+
+.botao:hover {
+    background-color: white;
+    color: black;
+}
+
+.container {
+    margin-left: 20px;
+}
+
+.filme-principal .container {
+    width: 50%;
+}
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+
+.item:hover {
+    border: 4px solid rgba(207, 15, 15, 0.527);
+}
+
+.carrossel-filmes {
+    margin-top: 50px;
+}
+
+#trailer {
+    width: 100%;
+    min-height: 50vh;
+    position: relative;
+    top: -400px;
+    z-index: 10;
+}
