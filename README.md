@@ -39,4 +39,4 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 
 ### Links dos projetos
 
-<a href='https://carlos357890.github.io/My--Projects--HTM5-and--CSS3/Android/android.html' target='_blank'>Site Android</a>
+<a href="https://carlos357890.github.io/My--Projects--HTM5-and--CSS3/Android/android.html" target="_blank">Site Android</a>
